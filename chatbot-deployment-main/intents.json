@@ -1,0 +1,488 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Social Anxiety Disorder symptoms",
+      "patterns": [
+        "Intense fear of social situations", 
+        "Avoidance of social events", 
+        "Sweating", 
+        "Rapid heartbeat",
+        "Shortness of breath",
+        "Muscle tension",
+        "Dry mouth"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Social Anxiety Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Social Anxiety Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Social Anxiety Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Social Anxiety Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Social Anxiety Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Social Anxiety Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Eating Disorder symptoms",
+      "patterns": [
+        "Extreme food restriction", 
+        "Binge eating", 
+        "Distorted body image", 
+        "Excessive exercise",
+        "Dry skin", 
+        "brittle nails",
+        "hair thinning",
+        "constipation"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Eating Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Eating Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Eating Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Eating Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Eating Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Eating Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Personality Disorders symptoms",
+      "patterns": [
+        "Difficulty in relationships", 
+        "Unstable emotions", 
+        "Impulsive behaviors",
+        "Difficulty trusting people",
+        "Suspiciousness",
+        "Difficulty following social rules"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Personality Disorders. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Personality Disorders. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Personality Disorders episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Personality Disorders. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Personality Disorders. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Personality Disorders, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Panic Disorder symptoms",
+      "patterns": [
+        "Panic attacks", 
+        "Chest pain", 
+        "Shortness of breath", 
+        "Dizziness",
+        "Rapid heartbeat",
+        "Trembling or shaking",
+        "Sweating excessively"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Panic Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Panic Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Panic Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Panic Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Panic Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Panic Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Substance-Related Disorder symptoms",
+      "patterns": [
+        "Cravings", 
+        "Loss of control over substance use", 
+        "Withdrawal symptoms",
+        "Bloodshot eyes",
+        "slurred speech",
+        "irritability"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Substance-Related Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Substance-Related Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Substance-Related Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Substance-Related Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Substance-Related Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Substance-Related Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Borderline Personality Disorder symptoms",
+      "patterns": [
+        "Fear of abandonment", 
+        "Impulsive behavior", 
+        "Self-harm", 
+        "Mood swings",
+        "Dissociation",
+        "Rapid changes in opinion about others"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Borderline Personality Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Borderline Personality Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Borderline Personality Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Borderline Personality Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Borderline Personality Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Borderline Personality Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Impulse-Control Disorder symptoms",
+      "patterns": [
+        "Compulsive behaviors", 
+        "Difficulty controlling emotions", 
+        "Aggressive outbursts",
+        "Difficulty managing frustration or anger",
+        "Acting without thinking about long-term effects",
+        "Lying"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Impulse-Control Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Impulse-Control Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Impulse-Control Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Impulse-Control Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Impulse-Control Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Impulse-Control Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Hypomania symptoms",
+      "patterns": [
+        "Increased energy", 
+        "Decreased need for sleep", 
+        "Euphoria", 
+        "Risky behaviors",
+        "Increased confidence or grandiosity",
+        "Talking excessively",
+        "feeling pressured to speak quickly",
+        "Hypersexuality",
+        "Difficulty focusing on one task at a time"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Hypomania. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Hypomania. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Hypomania episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Hypomania. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Hypomania. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Hypomania, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Depression symptoms",
+      "patterns": [
+        "Persistent sadness", 
+        "Loss of interest", 
+        "Fatigue", 
+        "Suicidal thoughts",
+        "Frequent crying",
+        "Memory problems"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of depression. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call clinical depression. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a depressive episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to depression. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in depression. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like depression, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Obsessive-Compulsive Disorder (OCD) symptoms",
+      "patterns": [
+        "Excessive cleaning", 
+        "Repeated checking", 
+        "Intrusive thoughts", 
+        "Compulsive counting",
+        "Contamination fears",
+        "Religious",
+        "moral obsessions",
+        "Praying excessively"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of obsessive-Compulsive Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call obsessive-Compulsive Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a obsessive-Compulsive Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to obsessive-Compulsive Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in obsessive-Compulsive Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like obsessive-Compulsive Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Dissociative Identity Disorder symptoms",
+      "patterns": [
+        "Memory gaps",
+        "Multiple distinct identities", 
+        "Emotional distress",
+        "Hearing voices inside the head",
+        "Depersonalization",
+        "the world is unreal"
+      ],
+      "responses": [
+       "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Dissociative Identity Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Dissociative Identity Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Dissociative Identity Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Dissociative Identity Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Dissociative Identity Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Dissociative Identity Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Psychosis symptoms",
+      "patterns": [
+        "Hallucinations", 
+        "Delusions", 
+        "Disorganized thinking",
+        "Seeing things that aren’t there",
+        "Feeling sensations on the skin",
+        "Religious delusions",
+        "Making up new words",
+        "Catatonia"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Psychosis. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Psychosis. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Psychosis episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Psychosis. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Psychosis. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Psychosis, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Generalized Anxiety Disorder symptoms",
+      "patterns": [
+        "Restlessness", 
+        "Fatigue", 
+        "Difficulty concentrating",
+        "Headaches",
+        "stomachaches",
+        "Procrastination",
+        "Waking up frequently during the night"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Generalized Anxiety Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Generalized Anxiety Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Generalized Anxiety Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Generalized Anxiety Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Generalized Anxiety Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Generalized Anxiety Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Paranoia symptoms",
+      "patterns": [
+        "Suspicion of others", 
+        "Persistent mistrust", 
+        "Holding grudges",
+        "Difficulty accepting criticism",
+        "Difficulty accepting differing opinions",
+        "being unforgiving",
+        "Refusing help or advice"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Paranoia. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Paranoia. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Paranoia episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Paranoia. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Paranoia. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Paranoia, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Factitious Disorder symptoms",
+      "patterns": [
+        "Exaggerating symptoms", 
+        "Frequent hospital visits", 
+        "Manipulation of medical tests",
+        "visiting multiple doctors to avoid detection",
+        "Deep need for attention",
+        "Enjoying medical settings"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Factitious Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Factitious Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Factitious Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Factitious Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Factitious Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Factitious Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Neurodevelopmental Disorder symptoms",
+      "patterns": [
+        "Cognitive impairment", 
+        "Difficulty with social interactions", 
+        "Delayed speech or motor skills",
+        "Difficulty understanding",
+        "Trouble with reading",
+        "Trouble with writing",
+        "Impulsivity"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Neurodevelopmental Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Neurodevelopmental Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Neurodevelopmental Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Neurodevelopmental Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Neurodevelopmental Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Neurodevelopmental Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Post-Traumatic Stress Disorder (PTSD) symptoms",
+      "patterns": [
+        "Flashbacks", 
+        "Nightmares", 
+        "Severe anxiety",
+        "Avoiding people",
+        "Reckless",
+        "Strong emotional"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Post-Traumatic Stress Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Post-Traumatic Stress Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Post-Traumatic Stress Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Post-Traumatic Stress Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Post-Traumatic Stress Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Post-Traumatic Stress Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Schizophrenia symptoms",
+      "patterns": [
+        "Hallucinations", 
+        "Delusions", 
+        "Disorganized speech",
+        "Lack of emotion",
+        "Reduced speech",
+        "strange postures"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Schizophrenia. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Schizophrenia. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Schizophrenia episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Schizophrenia. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Schizophrenia. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Schizophrenia, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Bipolar Disorder symptoms",
+      "patterns": [
+        "Manic episodes", 
+        "Depressive episodes", 
+        "Impulsive behavior",
+        "jumping between tasks",
+        "Similar to mania but milder",
+        "Easily distracted"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Bipolar Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Bipolar Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Bipolar Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Bipolar Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Bipolar Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Bipolar Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Mood Disorders symptoms",
+      "patterns": [
+        "Prolonged sadness", 
+        "Extreme mood swings", 
+        "Loss of interest in activities",
+        "Thoughts of death",
+        "craving carbohydrates",
+        "Improvement in mood during spring/summer"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Mood Disorders. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Mood Disorders. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Mood Disorders episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Mood Disorders. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Mood Disorders. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Mood Disorders, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Specific Phobia symptoms",
+      "patterns": [
+        "Extreme fear", 
+        "Avoidance behavior", 
+        "Panic attacks",
+        "nausea",
+        "Chest tightness",
+        "discomfort"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Specific Phobia. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Specific Phobia. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Specific Phobia episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Specific Phobia. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Specific Phobia. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Specific Phobia, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Attention Deficit Hyperactivity Disorder (ADHD) symptoms",
+      "patterns": [
+        "Difficulty focusing", 
+        "Hyperactivity", 
+        "Impulsivity",
+        "Forgetfulness",
+        "Difficulty staying seated for long periods",
+        "Struggling to play"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Attention Deficit Hyperactivity Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Attention Deficit Hyperactivity Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Attention Deficit Hyperactivity Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Attention Deficit Hyperactivity Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Attention Deficit Hyperactivity Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Attention Deficit Hyperactivity Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    },
+    {
+      "tag": "Cognitive Disorder symptoms",
+      "patterns": [
+        "Memory loss", 
+        "Confusion", 
+        "Difficulty understanding language",
+        "Difficulty remembering names",
+        "Repeating questions",
+        "Not recognizing familiar people or surroundings",
+        "Using incorrect words"
+      ],
+      "responses": [
+        "Thank you for sharing this with me—it takes strength to speak up about how you're feeling. Based on what you've told me it sounds like you may be experiencing symptoms of Cognitive Disorder. The good news is, you're not alone in this, and there are effective treatments and support systems that can help you feel better. I'd like to work with you on a care plan that feels right for you.",
+        "I understand that you have been feeling off for a while, and based on what you have told me, it seems like you're going through something we call Cognitive Disorder. It is more common than people think, and with the right support, people do get better. You're not alone, and we can take this step by step together.",
+        "From what you’ve described, it sounds like you're experiencing a Cognitive Disorder episode. This is a medical condition, just like diabetes or asthma, and it's treatable. With a combination of therapy, sometimes medication, and lifestyle changes, many people make a full recovery. Let’s explore what treatment might work best for you.",
+        "You’ve been through a lot, and the way you’re feeling isn’t something you have to just push through. What you’re describing points to Cognitive Disorder. It’s not your fault—and you don’t have to deal with it alone. I’m here to help you make sense of this and get the support you need.",
+        "Your symptoms match what we see in Cognitive Disorder. That means your brain is reacting to these symptoms reported, and it needs care—just like any other part of your body. The next step is to make a treatment plan.",
+        "I'm really glad you told me all of this. You’ve been carrying a lot on your own. It sounds like Cognitive Disorder, and I want you to know—this doesn’t define you, and there’s real help. We'll go through this together, and I’ll be here for you."
+      ]
+    }
+    
+  ]
+}
